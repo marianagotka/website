@@ -1,0 +1,55 @@
+.tips {
+  margin-top: 8px;
+
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.tip {
+  padding: 48px 15px 0px 15px;
+  border-bottom: 1px solid #e3e3e3;
+
+  &__subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    color: $text-color-green;
+  }
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.3571428954601288px;
+    margin: 0;
+    margin-top: 17px;
+  }
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    color: #2b292d;
+    margin-top: 15px;
+  }
+
+  &__decoration {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__image {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+
+  &__image-caption {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+    text-align: center;
+    color: $text-color-light-grey;
+  }
+}

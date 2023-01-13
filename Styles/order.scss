@@ -1,0 +1,100 @@
+.order {
+  height: 827px;
+  width: 320px;
+  background-color: $background-light-blue;
+  padding: 50px 15px 50px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include for-large-up {
+    height: 441px;
+    width: 1400px;
+    flex-direction: row;
+    padding: 73px 230px 72px 224px;
+  }
+
+  &_image {
+    height: 220px;
+    max-width: 200px;
+
+    @include for-large-up {
+      max-width: 270px;
+      height: 296px;
+    }
+  }
+  &_details {
+    max-width: 555px;
+
+    @include for-large-up {
+      // margin-top: 33px;
+      margin-left: 122px;
+    }
+  }
+  &_tittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    letter-spacing: -0.25px;
+
+    @include for-large-up {
+      margin-top: 0px;
+      height: 48px;
+    }
+  }
+  &_description {
+    height: 167px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 18px;
+
+    @include for-large-up {
+      height: 64px;
+      margin-top: 12px;
+    }
+  }
+  &_terms {
+    font-size: 14px;
+    line-height: 22px;
+    color: $text-color-light-grey;
+
+    @include for-large-up {
+      margin: 10px 0px 0px 0px;
+    }
+
+    &__terms-link {
+      color: $text-color-blue;
+    }
+  }
+}
+.action {
+  margin-top: 40px;
+
+  @include for-large-up {
+    margin-top: 26px;
+  }
+}
+.order_email {
+  height: 48px;
+  width: 290px;
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: 13px;
+  text-align: center;
+  border: 1px solid #2b292d33;
+}
+.order_details {
+  .order__button {
+    width: 100%;
+    margin-top: 12px;
+    @include for-large-up {
+      width: 160px;
+      margin: 0;
+    }
+  }
+}

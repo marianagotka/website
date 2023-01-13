@@ -1,0 +1,33 @@
+.action-button {
+  height: 48px;
+  width: 160px;
+  font-size: 18px;
+  border-radius: 2px;
+  color: #fff;
+  line-height: 13px;
+  background-color: #3040c4;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+.footer__line hide-mobile {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide-desktop {
+  @include for-large-down {
+    display: none;
+  }
+}
+
+navigation__arrow {
+  display: inline-block;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+  width: 8px;
+  height: 5px;
+  margin-left: 11px;
+}

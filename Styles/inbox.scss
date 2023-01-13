@@ -1,0 +1,70 @@
+.feedback {
+  width: 320px;
+  padding: 39px 15px 0px 15px;
+
+  @include for-large-up {
+    width: 100%;
+    height: 355px;
+    padding: 0;
+  }
+  &_tittle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: $text-color-blue;
+
+    @include for-large-up {
+      text-align: center;
+    }
+  }
+  &_description {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 29px;
+
+    @include for-large-up {
+      width: 750px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 29px;
+    }
+  }
+  &_caption {
+    margin-top: 32px;
+
+    @include for-large-up {
+      text-align: center;
+    }
+  }
+  &_name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  &_writer {
+    color: $text-color-light-grey;
+  }
+
+  &_img {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 290px;
+
+    @include for-large-up {
+      margin: 0;
+      margin-left: auto;
+      display: block;
+      margin-top: -210px;
+    }
+  }
+}
+
+.choose {
+  text-align: center;
+  margin-top: 40px;
+
+  &_radio {
+    margin-right: 20px;
+  }
+}

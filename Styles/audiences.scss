@@ -1,0 +1,59 @@
+.audiences {
+  padding: 50px 15px;
+  background-color: $background-light-blue;
+
+  &_subtittle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+  }
+  &_tittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.3571428954601288px;
+    text-align: center;
+    margin-top: 17px;
+  }
+  &_description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 30px;
+  }
+  &_gallery {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 15px;
+    //Why dont working?
+  }
+
+  &_decoration {
+    margin: 0 auto;
+    margin-top: 22px;
+    padding: 0;
+  }
+  &_image-caption {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 33px;
+  }
+}
+
+.gallery_main {
+  .audiences_gallery:first-child {
+    margin-top: 40px;
+  }
+}
+.gallery_main {
+  .audiences_gallery:hover:nth-of-type(2) {
+    background-color: $text-color-blue;
+    color: #fff;
+  }
+}
