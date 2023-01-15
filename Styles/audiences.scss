@@ -1,6 +1,10 @@
 .audiences {
   padding: 50px 15px;
-  background-color: $background-light-blue;
+  background-color: $background_light-sky;
+
+  @include for-large-up {
+    padding: 110px 130px;
+  }
 
   &__subtittle {
     font-size: 22px;
@@ -15,6 +19,12 @@
     letter-spacing: -0.3571428954601288px;
     text-align: center;
     margin-top: 17px;
+
+    @include for-large-up {
+      font-size: 56px;
+      line-height: 56px;
+      margin-top: 24px;
+    }
   }
   &__description {
     font-size: 24px;
@@ -23,39 +33,76 @@
     text-align: center;
     margin-top: 18px;
     margin-bottom: 30px;
+
+    @include for-large-up {
+      margin-top: 30px;
+    }
   }
-  &__gallery {
+}
+.audiences__gallery {
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  @include for-large-up {
+    margin-top: 111px;
     display: flex;
-    background-color: #fff;
-    margin-bottom: 15px;
-    // :first-of-type {
-    //   margin-top: 40px;
-    // }
-  }
-
-  &__decoration {
-    margin: 0 auto;
-    margin-top: 22px;
-    padding: 0;
-  }
-  &__image-caption {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    margin-top: 22px;
-    margin-bottom: 33px;
+    justify-content: center;
   }
 }
-
-.gallery_main {
-  .audiences_gallery:first-child {
-    margin-top: 40px;
-  }
+.card__decoration {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 1e-5) 100%
+    ),
+    #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
-.gallery_main {
-  .audiences_gallery:hover:nth-of-type(2) {
+.card__image {
+  max-width: 100%;
+  margin-top: 22px;
+}
+.card__image-caption {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 33px;
+}
+
+.gallery__card {
+  background-color: #fff;
+  margin-bottom: 15px;
+  width: 262px;
+  height: 300px;
+  :hover {
     background-color: $text-color-blue;
     color: #fff;
+  }
+  @include for-large-up {
+    margin: 0;
+    margin-right: 30px;
+    width: 262px;
+    height: 300px;
+  }
+}
+@include for-large-up {
+  .audiences__text {
+    width: 555px;
+    margin: auto;
+  }
+}
+
+@include for-large-up {
+  audiences__button {
+    margin: 0 auto;
   }
 }

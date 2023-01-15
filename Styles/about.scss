@@ -12,9 +12,6 @@
 }
 
 .article {
-  @include for-large-up {
-    width: 555px;
-  }
   &:last-child {
     margin-top: 20px;
 
@@ -32,7 +29,12 @@
   &__text {
     font-size: 22px;
     line-height: 32px;
-    margin-bottom: 0;
+    margin-bottom: 13px;
     margin-top: 6px;
+
+    @include for-large-up {
+      margin-bottom: 0px;
+      margin-right: 29px;
+    }
   }
 }
