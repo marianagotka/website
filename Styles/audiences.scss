@@ -102,7 +102,13 @@
 }
 
 @include for-large-up {
-  audiences__button {
-    margin: 0 auto;
+  .audiences-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+.audiences-button {
+  .audiences-button_item {
+    width: 100%;
   }
 }

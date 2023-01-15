@@ -159,7 +159,6 @@ html {
 
 .order {
   height: 827px;
-  width: 320px;
   background-color: #f4f5f7;
   padding: 50px 15px 50px 15px;
   display: flex;
@@ -205,6 +204,7 @@ html {
   .order_tittle {
     margin-top: 0px;
     height: 48px;
+    text-align: left;
   }
 }
 .order_description {
@@ -246,12 +246,18 @@ html {
 
 .order_email {
   height: 48px;
-  width: 290px;
+  width: 100%;
   border-radius: 2px;
   font-size: 18px;
   line-height: 13px;
   text-align: center;
   border: 1px solid rgba(43, 41, 45, 0.2);
+}
+@media screen and (min-width: 1400px) {
+  .order_email {
+    width: 385px;
+    margin: 0;
+  }
 }
 
 .order_details .order__button {
@@ -428,7 +434,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 106px;
     padding-top: 36px;
     flex-direction: row;
   }
@@ -468,6 +473,7 @@ html {
 .features {
   position: relative;
   display: flex;
+  margin-top: 106px;
 }
 @media screen and (max-width: 1399px) {
   .features {
@@ -630,7 +636,7 @@ html {
   }
 }
 
-navigation__arrow {
+.navigation__arrow {
   display: inline-block;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   width: 8px;
@@ -852,10 +858,15 @@ navigation__arrow {
   }
 }
 @media screen and (min-width: 1400px) {
-  audiences__button {
-    margin: 0 auto;
+  .audiences-button {
+    display: flex;
+    justify-content: center;
   }
 }
+.audiences-button .audiences-button_item {
+  width: 100%;
+}
+
 .inbox {
   padding: 50px 15px;
   background-color: rgba(252, 240, 227, 0.4);
@@ -987,6 +998,7 @@ navigation__arrow {
 
 .feedback {
   padding: 39px 15px 0px 15px;
+  margin-top: 76px;
 }
 @media screen and (min-width: 1400px) {
   .feedback {
@@ -1059,7 +1071,6 @@ navigation__arrow {
 }
 
 .hiring {
-  width: 321px;
   height: 866px;
   display: flex;
   flex-direction: column;

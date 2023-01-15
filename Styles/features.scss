@@ -2,6 +2,7 @@
 .features {
   position: relative;
   display: flex;
+  margin-top: 106px;
 
   @include for-large-down {
     display: none;

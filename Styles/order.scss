@@ -1,6 +1,5 @@
 .order {
   height: 827px;
-  width: 320px;
   background-color: $background-light-smoke;
   padding: 50px 15px 50px 15px;
   display: flex;
@@ -43,6 +42,7 @@
     @include for-large-up {
       margin-top: 0px;
       height: 48px;
+      text-align: left;
     }
   }
   &_description {
@@ -81,12 +81,16 @@
 }
 .order_email {
   height: 48px;
-  width: 290px;
+  width: 100%;
   border-radius: 2px;
   font-size: 18px;
   line-height: 13px;
   text-align: center;
   border: 1px solid #2b292d33;
+  @include for-large-up {
+    width: 385px;
+    margin: 0;
+  }
 }
 .order_details {
   .order__button {
