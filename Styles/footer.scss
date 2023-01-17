@@ -15,6 +15,7 @@
 
     @include for-large-up {
       display: block;
+      margin-bottom: 0px;
     }
   }
 
@@ -142,8 +143,10 @@
 }
 
 .nav-links {
-  width: 265px;
-
+  // width: 265px;
+  @include for-large-up {
+    margin-right: 29px;
+  }
   &__tittle {
     font-weight: 700;
     font-size: 22px;
@@ -166,7 +169,10 @@
 }
 
 .about-company {
-  margin-top: 48px;
+  margin-top: 40px;
+  @include for-large-up {
+    margin-top: 44px;
+  }
 }
 
 .logo-vertical {

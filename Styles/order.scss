@@ -8,9 +8,8 @@
 
   @include for-large-up {
     height: 441px;
-    width: 1400px;
     flex-direction: row;
-    padding: 106px 230px 72px 224px;
+    padding: 106px 228px 105px 224px;
   }
 
   &_image {
@@ -86,7 +85,9 @@
   font-size: 18px;
   line-height: 13px;
   text-align: center;
+  color: $text-color-navy;
   border: 1px solid #2b292d33;
+
   @include for-large-up {
     width: 385px;
     margin: 0;

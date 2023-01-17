@@ -168,9 +168,8 @@ html {
 @media screen and (min-width: 1400px) {
   .order {
     height: 441px;
-    width: 1400px;
     flex-direction: row;
-    padding: 106px 230px 72px 224px;
+    padding: 106px 228px 105px 224px;
   }
 }
 .order_image {
@@ -251,6 +250,7 @@ html {
   font-size: 18px;
   line-height: 13px;
   text-align: center;
+  color: #2b292d;
   border: 1px solid rgba(43, 41, 45, 0.2);
 }
 @media screen and (min-width: 1400px) {
@@ -1220,6 +1220,7 @@ html {
 @media screen and (min-width: 1400px) {
   .footer__description {
     display: block;
+    margin-bottom: 0px;
   }
 }
 .footer__line {
@@ -1355,8 +1356,10 @@ html {
   }
 }
 
-.nav-links {
-  width: 265px;
+@media screen and (min-width: 1400px) {
+  .nav-links {
+    margin-right: 29px;
+  }
 }
 .nav-links__tittle {
   font-weight: 700;
@@ -1379,7 +1382,12 @@ html {
 }
 
 .about-company {
-  margin-top: 48px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .about-company {
+    margin-top: 44px;
+  }
 }
 
 .logo-vertical {
