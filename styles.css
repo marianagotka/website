@@ -299,8 +299,6 @@ html {
   font-weight: 700;
   line-height: 50px;
   margin: 0;
-  height: 205px;
-  width: 290px;
   letter-spacing: -0.31px;
 }
 @media screen and (min-width: 1400px) {
