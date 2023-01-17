@@ -862,6 +862,15 @@ html {
     justify-content: center;
   }
 }
+.audiences-button .audiences-button_item {
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .audiences-button .audiences-button_item {
+    width: 160px;
+  }
+}
+
 .inbox {
   padding: 50px 15px;
   background-color: rgba(252, 240, 227, 0.4);

@@ -107,8 +107,11 @@
     justify-content: center;
   }
 }
-// .audiences-button {
-//   .audiences-button_item {
-//     width: 100%;
-//   }
-// }
+.audiences-button {
+  .audiences-button_item {
+    width: 100%;
+    @include for-large-up {
+      width: 160px;
+    }
+  }
+}
