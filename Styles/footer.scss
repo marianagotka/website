@@ -127,6 +127,9 @@
     margin-top: 60px;
     margin-left: auto;
     flex-direction: row;
+    @include for-large-up {
+      margin-right: 29px;
+    }
   }
   &__column {
     margin-top: 30px;
