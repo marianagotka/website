@@ -121,6 +121,7 @@
   display: flex;
   flex-direction: column;
   margin: 0px 15px 0px 15px;
+  font-size: 18px;
 
   @include for-large-up {
     margin-top: 60px;
@@ -150,7 +151,6 @@
     width: 212px;
   }
   &__list {
-    font-size: 18;
     color: #2b292d99;
     opacity: 0.6;
     padding: 0;

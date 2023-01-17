@@ -301,6 +301,7 @@ html {
   margin: 0;
   height: 205px;
   width: 290px;
+  letter-spacing: -0.5px;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -318,7 +319,7 @@ html {
 .headline__description {
   font-size: 24px;
   line-height: 34px;
-  margin-top: 24px;
+  margin-top: 34px;
   margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
@@ -333,7 +334,7 @@ html {
   }
 }
 .headline__action {
-  margin-top: 30px;
+  margin-top: 58px;
 }
 @media screen and (min-width: 1400px) {
   .headline__action {
@@ -1336,6 +1337,7 @@ html {
   display: flex;
   flex-direction: column;
   margin: 0px 15px 0px 15px;
+  font-size: 18px;
 }
 @media screen and (min-width: 1400px) {
   .additinol-navigation {
@@ -1367,7 +1369,6 @@ html {
   width: 212px;
 }
 .nav-links__list {
-  font-size: 18;
   color: rgba(43, 41, 45, 0.6);
   opacity: 0.6;
   padding: 0;
