@@ -750,22 +750,22 @@ html {
   color: #3142c6;
 }
 
-.audiences {
+.audience {
   padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.0705882353);
 }
 @media screen and (min-width: 1400px) {
-  .audiences {
+  .audience {
     padding: 110px 130px;
   }
 }
-.audiences__subtittle {
+.audience__subtittle {
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
   text-align: center;
 }
-.audiences__tittle {
+.audience__tittle {
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
@@ -774,13 +774,13 @@ html {
   margin-top: 17px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__tittle {
+  .audience__tittle {
     font-size: 56px;
     line-height: 56px;
     margin-top: 24px;
   }
 }
-.audiences__description {
+.audience__description {
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -789,17 +789,17 @@ html {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__description {
+  .audience__description {
     margin-top: 30px;
   }
 }
 
-.audiences__gallery {
+.audience__gallery {
   margin-top: 40px;
   margin-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__gallery {
+  .audience__gallery {
     margin-top: 111px;
     display: flex;
     justify-content: center;
@@ -851,22 +851,22 @@ html {
 }
 
 @media screen and (min-width: 1400px) {
-  .audiences__text {
+  .audience__text {
     width: 555px;
     margin: auto;
   }
 }
 @media screen and (min-width: 1400px) {
-  .audiences-button {
+  .audience-button {
     display: flex;
     justify-content: center;
   }
 }
-.audiences-button .audiences-button_item {
+.audience-button .audience-button_item {
   width: 100%;
 }
 @media screen and (min-width: 1400px) {
-  .audiences-button .audiences-button_item {
+  .audience-button .audience-button_item {
     width: 160px;
   }
 }
