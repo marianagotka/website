@@ -5,6 +5,7 @@
   @include for-large-up {
     padding: 110px 130px;
   }
+
   &__subtittle {
     font-size: 22px;
     font-weight: 700;
@@ -112,5 +113,10 @@
     @include for-large-up {
       width: 160px;
     }
+  }
+}
+.audience-button {
+  .audience-btn_item {
+    width: 100%;
   }
 }
