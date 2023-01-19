@@ -616,6 +616,7 @@ html {
   font-size: 18px;
   border-radius: 2px;
   color: #fff;
+  font-weight: 700;
   line-height: 13px;
   background-color: #3040c4;
   background-blend-mode: overlay, normal;
@@ -797,6 +798,10 @@ html {
 .audience__gallery {
   margin-top: 40px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 1400px) {
   .audience__gallery {
@@ -812,9 +817,6 @@ html {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
 .card__image {
@@ -834,7 +836,7 @@ html {
 .gallery__card {
   background-color: #fff;
   margin-bottom: 15px;
-  width: 262px;
+  width: 290px;
   height: 300px;
 }
 .gallery__card :hover {
@@ -843,10 +845,10 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .gallery__card {
-    margin: 0;
-    margin-right: 30px;
     width: 262px;
     height: 300px;
+    margin: 0;
+    margin-right: 30px;
   }
 }
 
@@ -864,6 +866,8 @@ html {
 }
 .audience-button .audience-button_item {
   width: 100%;
+  color: #000;
+  font-weight: 700;
 }
 @media screen and (min-width: 1400px) {
   .audience-button .audience-button_item {
@@ -1446,6 +1450,7 @@ html {
   font-size: 18px;
   border-radius: 2px;
   color: #fff;
+  font-weight: 700;
   line-height: 13px;
   background-color: #3040c4;
   background-blend-mode: overlay, normal;

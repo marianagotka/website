@@ -42,6 +42,10 @@
 .audience__gallery {
   margin-top: 40px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   @include for-large-up {
     margin-top: 111px;
@@ -55,15 +59,15 @@
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 1e-5) 100%
-    ),
-    #ffffff;
-  background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  // background: linear-gradient(
+  //     180deg,
+  //     rgba(255, 255, 255, 0.05) 0%,
+  //     rgba(255, 255, 255, 1e-5) 100%
+  //   ),
+  //   #ffffff;
+  // background-blend-mode: overlay, normal;
+  // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+  //   inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 .card__image {
   max-width: 100%;
@@ -81,17 +85,17 @@
 .gallery__card {
   background-color: #fff;
   margin-bottom: 15px;
-  width: 262px;
+  width: 290px;
   height: 300px;
   :hover {
     background-color: $text-color-blue;
     color: #fff;
   }
   @include for-large-up {
-    margin: 0;
-    margin-right: 30px;
     width: 262px;
     height: 300px;
+    margin: 0;
+    margin-right: 30px;
   }
 }
 @include for-large-up {
@@ -110,6 +114,8 @@
 .audience-button {
   .audience-button_item {
     width: 100%;
+    color: #000;
+    font-weight: 700;
     @include for-large-up {
       width: 160px;
     }
