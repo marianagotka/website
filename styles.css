@@ -863,7 +863,6 @@ html {
   .audience-button {
     display: flex;
     justify-content: center;
-    width: 160px;
   }
 }
 .audience-button .audience-button_item {
