@@ -807,6 +807,7 @@ html {
   .audience__gallery {
     margin-top: 111px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
 }
@@ -862,17 +863,13 @@ html {
   .audience-button {
     display: flex;
     justify-content: center;
+    width: 160px;
   }
 }
 .audience-button .audience-button_item {
   width: 100%;
   color: #000;
   font-weight: 700;
-}
-@media screen and (min-width: 1400px) {
-  .audience-button .audience-button_item {
-    width: 160px;
-  }
 }
 
 .audience-button .audience-btn_item {

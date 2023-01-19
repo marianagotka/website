@@ -50,6 +50,7 @@
   @include for-large-up {
     margin-top: 111px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
 }
@@ -109,6 +110,7 @@
   .audience-button {
     display: flex;
     justify-content: center;
+    width: 160px;
   }
 }
 .audience-button {
@@ -116,13 +118,16 @@
     width: 100%;
     color: #000;
     font-weight: 700;
-    @include for-large-up {
-      width: 160px;
-    }
+    // @include for-large-up {
+    //   width: 160px;
+    // }
   }
 }
 .audience-button {
   .audience-btn_item {
     width: 100%;
   }
+  // @include for-large-up {
+  //   width: 160px;
+  // }
 }
