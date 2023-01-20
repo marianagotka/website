@@ -24,8 +24,6 @@
     font-weight: 700;
     line-height: 50px;
     margin: 0;
-    // // height: 205px;
-    // width: 290px;
     letter-spacing: -0.31px;
 
     @include for-large-up {
@@ -35,7 +33,6 @@
       height: 165px;
       width: 754px;
       border-radius: nullpx;
-      // margin-top: 81px;
       letter-spacing: -0.5;
       z-index: 1;
       margin: 0;
@@ -62,7 +59,6 @@
 
     @include for-large-up {
       margin-top: 58px;
-      // margin-bottom: 126px;
       display: flex;
     }
   }
