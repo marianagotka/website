@@ -4,6 +4,7 @@
 
   @include for-large-up {
     padding: 110px 130px;
+    height: 983px;
   }
 
   &__subtittle {
@@ -123,13 +124,15 @@
 }
 .audience-button {
   .audience-button_item {
+    color: #000;
+    box-shadow: none;
     @include for-large-down {
       width: 100%;
-      color: #000;
       font-weight: 700;
     }
   }
 }
+
 .audience-button {
   .audience-btn_item {
     @include for-large-down {

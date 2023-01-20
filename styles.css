@@ -758,6 +758,7 @@ html {
 @media screen and (min-width: 1400px) {
   .audience {
     padding: 110px 130px;
+    height: 983px;
   }
 }
 .audience__subtittle {
@@ -868,10 +869,13 @@ html {
     justify-content: center;
   }
 }
+.audience-button .audience-button_item {
+  color: #000;
+  box-shadow: none;
+}
 @media screen and (max-width: 1399px) {
   .audience-button .audience-button_item {
     width: 100%;
-    color: #000;
     font-weight: 700;
   }
 }
