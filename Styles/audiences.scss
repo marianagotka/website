@@ -123,19 +123,17 @@
 }
 .audience-button {
   .audience-button_item {
-    width: 100%;
-    color: #000;
-    font-weight: 700;
-    // @include for-large-up {
-    //   width: 160px;
-    // }
+    @include for-large-down {
+      width: 100%;
+      color: #000;
+      font-weight: 700;
+    }
   }
 }
 .audience-button {
   .audience-btn_item {
-    width: 100%;
+    @include for-large-down {
+      width: 100%;
+    }
   }
-  // @include for-large-up {
-  //   width: 160px;
-  // }
 }

@@ -251,6 +251,7 @@ html {
   line-height: 13px;
   text-align: center;
   color: #2b292d;
+  border: 1px solid rgba(43, 41, 45, 0.2);
 }
 @media screen and (min-width: 1400px) {
   .order_email {
@@ -867,14 +868,18 @@ html {
     justify-content: center;
   }
 }
-.audience-button .audience-button_item {
-  width: 100%;
-  color: #000;
-  font-weight: 700;
+@media screen and (max-width: 1399px) {
+  .audience-button .audience-button_item {
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+  }
 }
 
-.audience-button .audience-btn_item {
-  width: 100%;
+@media screen and (max-width: 1399px) {
+  .audience-button .audience-btn_item {
+    width: 100%;
+  }
 }
 
 .inbox {
@@ -886,6 +891,7 @@ html {
     display: flex;
     flex-direction: row;
     padding: 115px 99px 101px 193px;
+    margin-top: 103px;
   }
 }
 
