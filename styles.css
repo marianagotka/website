@@ -810,7 +810,7 @@ html {
     margin-top: 111px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: stretch;
   }
 }
 
@@ -820,8 +820,13 @@ html {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  width: 262px;
+  width: 290px;
   height: 300px;
+}
+@media screen and (min-width: 1400px) {
+  .card__decoration {
+    width: 262px;
+  }
 }
 
 .card__image {
