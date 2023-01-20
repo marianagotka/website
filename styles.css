@@ -777,6 +777,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .audience__tittle {
+    letter-spacing: -0.5px;
     font-size: 56px;
     line-height: 56px;
     margin-top: 24px;
@@ -792,7 +793,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .audience__description {
-    margin-top: 30px;
+    margin-top: 34px;
   }
 }
 
@@ -819,6 +820,12 @@ html {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .card__decoration {
+    width: 262px;
+    height: 300px;
+  }
 }
 
 .card__image {
@@ -851,8 +858,6 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .gallery__card {
-    width: 262px;
-    height: 300px;
     margin: 0;
     margin-right: 30px;
   }
