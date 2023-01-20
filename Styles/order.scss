@@ -40,7 +40,7 @@
 
     @include for-large-up {
       margin-top: 0px;
-      height: 48px;
+      line-height: 40px;
       text-align: left;
     }
   }
@@ -85,8 +85,8 @@
   font-size: 18px;
   line-height: 13px;
   text-align: center;
+  // border: 1px solid #2b292d33;
   color: $text-color-navy;
-  border: 1px solid #2b292d33;
 
   @include for-large-up {
     width: 385px;
