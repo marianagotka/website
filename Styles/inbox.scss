@@ -9,7 +9,6 @@
     margin-top: 103px;
   }
 }
-
 .inbox-decoration {
   @include for-large-up {
     margin: 0;
@@ -20,18 +19,18 @@
     flex-direction: column;
     justify-content: space-between;
   }
-}
-.inbox-decoration__image {
-  max-width: 100%;
-}
-.inbox-decoration__caption {
-  display: none;
-  @include for-large-up {
-    display: block;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 15px;
+  &__image {
+    max-width: 100%;
+  }
+  &__caption {
+    display: none;
+    @include for-large-up {
+      display: block;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      margin-top: 15px;
+    }
   }
 }
 .inbox-text {
@@ -92,7 +91,6 @@
     margin-top: 44px;
     border-bottom: 4px solid $text-light-blue;
   }
-
   &__text {
     font-size: 16px;
     line-height: 22px;
@@ -111,7 +109,6 @@
 .sender-user {
   font-size: 16px;
   line-height: 22px;
-
   &__name {
     font-weight: 700;
   }

@@ -1,4 +1,3 @@
-@import 'breakpoints.scss';
 .header {
   height: 64px;
   width: 100%;
@@ -14,7 +13,6 @@
     display: flex;
     background: transparent;
   }
-
   &__menu_button {
     width: 58px;
     height: 100%;
@@ -27,7 +25,6 @@
       display: none;
     }
   }
-
   &__button {
     display: none;
 
@@ -35,7 +32,6 @@
       display: block;
     }
   }
-
   &__menu-icon {
     width: 18px;
     height: 13px;
@@ -54,7 +50,6 @@
     display: block;
   }
 }
-
 .top_section {
   background-color: #f3c6bd;
 
@@ -72,7 +67,6 @@
     margin-top: 7px;
     margin-right: 75px;
   }
-
   &__item {
     color: #2b292d;
     text-decoration: none;
@@ -94,7 +88,6 @@
     margin-left: 11px;
   }
 }
-
 .logo {
   display: flex;
   &__image {

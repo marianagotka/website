@@ -11,7 +11,6 @@
     flex-direction: row;
     padding: 106px 228px 105px 224px;
   }
-
   &_image {
     height: 220px;
     max-width: 200px;
@@ -25,7 +24,6 @@
     max-width: 555px;
 
     @include for-large-up {
-      // margin-top: 33px;
       margin-left: 122px;
     }
   }
@@ -65,7 +63,6 @@
     @include for-large-up {
       margin: 10px 0px 0px 0px;
     }
-
     &__terms-link {
       color: $text-color-blue;
     }

@@ -1,4 +1,3 @@
-@import 'breakpoints';
 .customers {
   display: flex;
   flex-direction: column;
@@ -9,11 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // padding-bottom: 106px;
     padding-top: 36px;
     flex-direction: row;
   }
-
   &__item {
     height: 94px;
     min-width: 107px;
@@ -27,12 +24,10 @@
     &:last-child {
       border-right: none;
     }
-
     @include for-large-up {
       border: none;
     }
   }
-
   &__logo {
     filter: brightness(0);
     max-width: 80%;

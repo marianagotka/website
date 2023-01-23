@@ -6,7 +6,6 @@
     padding: 110px 130px;
     height: 983px;
   }
-
   &__subtittle {
     font-size: 22px;
     font-weight: 700;
@@ -68,7 +67,6 @@
     width: 262px;
   }
 }
-
 .card__image {
   max-width: 100%;
   margin-top: 22px;
@@ -81,7 +79,6 @@
   margin-top: 22px;
   margin-bottom: 33px;
 }
-
 .gallery__card {
   border-radius: 8px;
   background-color: #fff;
@@ -99,6 +96,7 @@
     background-color: $text-color-blue;
     color: #fff;
   }
+
   @include for-large-up {
     margin: 0;
     margin-right: 30px;
@@ -126,6 +124,7 @@
     color: #000;
     box-shadow: none;
     padding: 0;
+
     @include for-large-down {
       width: 100%;
       font-weight: 700;

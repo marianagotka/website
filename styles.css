@@ -922,11 +922,9 @@ html {
     justify-content: space-between;
   }
 }
-
 .inbox-decoration__image {
   max-width: 100%;
 }
-
 .inbox-decoration__caption {
   display: none;
 }
@@ -1186,6 +1184,7 @@ html {
   .hiring .profession:hover {
     background-color: #3142c6;
     color: white;
+    cursor: pointer;
   }
 }
 .hiring .profession:last-child {

@@ -12,19 +12,16 @@
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border: none;
 }
-
 .footer__line hide-mobile {
   @include for-large-up {
     display: none;
   }
 }
-
 .hide-desktop {
   @include for-large-down {
     display: none;
   }
 }
-
 .navigation__arrow {
   display: inline-block;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);

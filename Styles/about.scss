@@ -1,16 +1,14 @@
-@import 'breakpoints';
+// @import 'breakpoints';
 .about {
   padding: 46px 15px;
   background-color: #f4f5f7;
   width: 100%;
-
   @include for-large-up {
     display: flex;
     justify-content: space-between;
     padding: 77px 130px 76px 130px;
   }
 }
-
 .article {
   &:last-child {
     margin-top: 20px;
@@ -19,7 +17,6 @@
       margin-top: 0px;
     }
   }
-
   &__tittle {
     font-size: 22px;
     font-weight: 700;
